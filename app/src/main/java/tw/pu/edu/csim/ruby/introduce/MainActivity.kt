@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity(), OnGestureListener, View.OnTouchListene
             img2.x.toInt() + img2.width, img2.y.toInt() + img2.height)
 
         if(r1.intersect(r2)) {
-            txv.text = "這是我!嘻嘻"
+            txv.text = "這是我!嘻嘻哈哈哈哈"
             img3.visibility = View.VISIBLE
         }
         else{
